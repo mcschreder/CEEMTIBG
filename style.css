@@ -1,0 +1,446 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #000c25;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos{
+    height: 60px;
+    display: inline;
+    margin: 10px;
+}
+
+
+nav{
+    text-align: right;
+    padding-right: 20px;
+    width: 100%;
+}
+
+nav a{
+    padding: 20px;
+    color: white;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icons{
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.boxes{
+    margin: 20px;
+    border: 2px solid #000c25;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#Mural, #Jogos, #Livros, #Projeto{
+    margin: 20px;
+    padding: 10px;
+}
+
+.titulosessoes > img{
+    width: 45px;
+    height: 45px;
+}
+
+.titulosessoes a{
+    margin-left: 76%;
+}
+
+.titulosessoes{
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #000c25;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.org-boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.org-boxes > img{
+    padding: 20px;
+}
+
+footer{
+    background-color: #000c25;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+li{
+    text-align: left;
+}
+
+#informacoes{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.info-footer{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+#info-cursos{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+#info-escola{
+    display: flex;
+    flex-direction: row;
+}
+
+#info-cursos p{
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.txt-boxes{
+    margin-top: 10px;
+    margin-bottom: 40%;
+}
+
+.btn{
+    color: white;
+    background-color: #000c25;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.seta{
+    width: 15px;
+}
+
+.prints{
+    width: 70%;
+}
+
+.org-mulheres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mulher{
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+    width: calc(25% - 10px);
+    min-width: 0;
+
+    border: 1px solid lightgray;
+}
+
+.mulher-jogos{
+    border-radius: 15px;
+    margin: 25px;
+    padding: 10px;
+
+    text-align: center;
+
+    width: 40%;
+    min-width: 0;
+
+    border: 1px solid lightgray;
+}
+
+.mulher-livros{
+    border-radius: 15px;
+    margin: 25px;
+    padding: 10px;
+
+    text-align: center;
+
+    width: 40%;
+    min-width: 0;
+
+    border: 1px solid lightgray;
+}
+
+.info-mulher-jogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-mulher-livros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.img-mulher{
+    width: 30%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.info-mulher{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    min-width: 0;
+    overflow: hidden;
+}
+
+.titulo-mulher{
+    color: #000c25;
+    font-size: 17px;
+    line-height: 1.2;
+
+    white-space: nowrap;
+}
+
+.txt-mulher{
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.txt-mulher-jogos{
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.txt-mulher-livros{
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.conhecer{
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: auto;
+
+    border: 1px solid #000c25;
+    border-radius: 8px;
+    color: #000c25;
+    padding: 5px;
+
+    white-space: nowrap;
+}
+
+
+.borda-tecnologias{
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+}
+
+.borda-tecnologias:first-child{
+    width: 220px;
+}
+.borda-tecnologias:nth-child(2){
+    width: 220px;
+}
+
+.borda-tecnologias:nth-child(3){
+    width: 400px;
+}
+
+.borda-tecnologias:nth-child(4){
+    width: 500px;
+}
+
+
+#tecnologiasutilizadas{
+    margin: 20px;
+}
+
+#orgtecnologiasutilizadas{
+    display: flex;
+    flex-direction: row;
+    width:max-content;
+    text-align: center;
+}
+
+.imgtecnologias{
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.txttecnologias{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+}
+
+.txttecnologias2{
+    font-size: 12px;
+    text-align:justify;
+    text-justify:inter-word;
+    width: 200px;
+}
+
+.titulo-projeto .icons{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.titulo-projeto{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 10px 0px;
+}
+
+.txt-titulo-projeto{
+    color: #000c25;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.texto-projeto{
+    color: #28044f;
+    text-align: center;
+}
+
+.icons-objetivos, 
+.icons-cursos{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+
+h4{
+    background-color: #000c25;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#tabelaobjetivos{
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+#tabeladesenvolvido{
+    width: 800px;   
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+#tabelacurso{
+    width: 300px;
+}
+
+#tabelaprojeto{
+    width: 400px;
+}
+
+#orgtabelasCeP{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tabelas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.itens-objetivos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px;
+    border: 1px solid lightgray;
+
+
+}
+
+.itens-curso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px;
+    border: 1px solid lightgray;
+    height: 90px;
+
+}
+
+#tabeladesenvolvido > p{
+    padding-bottom: 15px;
+}
