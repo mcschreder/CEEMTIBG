@@ -444,3 +444,85 @@ h4{
 #tabeladesenvolvido > p{
     padding-bottom: 15px;
 }
+
+#steam{
+    margin: 20px;
+}
+
+#orgsteam{
+    display: flex;
+}
+
+.bordasteam{
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid lightgray;
+
+    flex: 1;
+}
+
+.letra{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.titulosteam{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.imgsteam{
+    width: 70px;
+    margin: 10px;
+}
+
+#orgsteam .bordasteam:nth-child(1) .letra{
+    background-color: #3276cf;
+}
+
+#orgsteam .bordasteam:nth-child(1) .titulosteam{
+    color: #3276cf;
+}
+
+#orgsteam .bordasteam:nth-child(2) .letra{
+    background-color: #3b9b42;
+}
+
+#orgsteam .bordasteam:nth-child(2) .titulosteam{
+    color: #3b9b42;
+}
+
+#orgsteam .bordasteam:nth-child(3) .letra{
+    background-color: #faa328;
+}
+
+#orgsteam .bordasteam:nth-child(3) .titulosteam{
+    color: #faa328;
+}
+
+#orgsteam .bordasteam:nth-child(4) .letra{
+    background-color: #d73a76;
+}
+
+#orgsteam .bordasteam:nth-child(4) .titulosteam{
+    color: #d73a76;
+}
+
+#orgsteam .bordasteam:nth-child(5) .letra{
+    background-color: #653c9a;
+}
+
+#orgsteam .bordasteam:nth-child(5) .titulosteam{
+    color: #653c9a;
+}
