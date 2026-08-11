@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Mulheres</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Maria-Goeppert-Mayer.css">
+</head>
+<body id="fundo">
+
+    <header id="topo1">  <!-- cabeçasso parti du nomi da moça -->
+        <h1 id="titulo"> Maria Goeppert Mayer </h1>
+        
+        <nav>
+           <ul id="topo3"> <!-- parti dus butões -->
+                <li class="nav_botton"><a href="#resumo">Resumo</a></li>
+                <li class="nav_botton"><a href="#História">História</a></li>
+                <li class="nav_botton"><a href="#Contribuições">Contribuições</a></li>
+                <li class="nav_botton"><a href="#Referências">Referências</a></li>
+                <li class="nav_botton"><a href="index.html">Voltar ao Painel</a></li>
+            </ul> 
+        </nav>
+    </header> <!-- nomi da moça e butões de navegação -->
+    
+    <br>
+    
+    <main>
+        <section id="resumo">
+            <h1>Resumo</h1>
+            <hr color="#9932CC">
+            <br>
+            <div class="resumo-container">
+                <div class="imagem">
+                    <img src="https://cdn.britannica.com/22/21022-004-E7A6B552/Maria-Goeppert-Mayer.jpg?w=300" width="180" height="270">
+                </div>
+                <div class="texto">
+                    <p>Nascida em Kattowitz em 1906, Maria cresceu em um ambiente acadêmico e estudou física quântica na Universidade de Göttingen sob a orientação de Max Born.
+                    Em 1930, mudou-se para os Estados Unidos após se casar com o químico Joseph Mayer. Durante grande parte de sua carreira, trabalhou em posições voluntárias devido a regras universitárias contra o nepotismo.</p>
+                    <p>Durante a Segunda Guerra Mundial, colaborou com o Projeto Manhattan no desenvolvimento de pesquisas sobre isótopos de urânio.
+                    Mesmo enfrentando barreiras para obter posições remuneradas, continuou suas pesquisas até se tornar professora titular na Universidade da Califórnia em 1960.</p>
+                </div>
+                <div class="imagem mini-slideshow">
+                    <img src="https://s2.glbimg.com/luzLPYq69_jQUYfRSk2FtvKDEKI=/e.glbimg.com/og/ed/f/original/2019/07/18/maria_goeppert_mayer.jpg? w=10" class="active" alt="Maria Goeppert Mayer 1">
+                    <img src="https://www.edukapa.com.br/fisicanet/HistoriadaFisica/Goep000m.jpg" alt="Maria Goeppert Mayer 2">
+                    <img src="https://www.anl.gov/sites/www/files/styles/article_teaser_16x9/public/16x9-Maria%20Goeppert%20Mayer.jpg" alt="Maria Goeppert Mayer 3">
+                </div>
+            </div>
+            <br>
+            <br>
+        </section> <!-- conteudu do trabai 👍 -->
+        <br> 
+        <section id="História">
+            <h1>História</h1>
+            <hr color="#9932CC">
+            <br>
+            <div class="texto">
+                <p>Nascida em Kattowitz (então parte da Alemanha), Maria cresceu em um ambiente acadêmico em Göttingen. Ela ingressou na Universidade de Göttingen para estudar matemática, mas logo se voltou para a física quântica sob a tutela do renomado Max Born. Em 1930, concluiu seu doutorado com uma tese pioneira sobre a absorção de dois fótons por átomos.</p>
+                
+                <p>No mesmo ano, casou-se com o químico americano Joseph Edward Mayer e mudou-se para os Estados Unidos. Durante grande parte de sua carreira nos EUA, enfrentou regras rígidas de nepotismo nas universidades em que o marido trabalhava (como a Universidade Johns Hopkins e a Universidade de Chicago). Por conta disso, trabalhou por muitos anos em posições voluntárias ou de professora assistente não remunerada, desempenhando pesquisas de alto nível sem os devidos cargos oficiais ou salário justo.</p>
+                
+                <p>Apesar das barreiras, durante a Segunda Guerra Mundial colaborou com o Projeto Manhattan na separação de isótopos de urânio. Somente em 1960 obteve um cargo como professora titular pagante na Universidade da Califórnia, em San Diego, anos antes de falecer em 1972.</p>
+            </div>
+       
+        </section>
+        <br>
+        <section id="Contribuições">
+            <h1>Contribuições</h1>
+            <hr color="#9932CC">
+            <br>
+            <div class="texto">
+                <ul>
+                    <li>Desenvolvimento do modelo de camadas do núcleo atômico.</li>
+                    <li>Explicação dos números mágicos de prótons e nêutrons na estabilidade nuclear.</li>
+                    <li>Previsão teórica da absorção de dois fótons em sua tese de doutorado.</li>
+                    <li>Segunda mulher a receber o Prêmio Nobel de Física em 1963.</li>
+                    <li>Contribuições fundamentais para a física quântica e química física.</li>
+                </ul>
+                <br>
+            </div>
+        </section>
+        <br>
+        <section id="Referências">
+            <h1>Referências</h1>
+            <hr color="#9932CC">
+            <br>
+            <div class="texto">
+                <ul>
+                    <li>https://www.nobelprize.org/prizes/physics/1963/mayer/facts/</li>
+                    <li>https://www.britannica.com/biography/Maria-Goeppert-Mayer</li>
+                    <li>https://www.aps.org/publications/apsnews/200808/physicshistory.cfm</li>
+                    <li>https://www.energy.gov/manhattan-project-history/people/maria-goeppert-mayer</li>
+                </ul>
+                <br>
+            </div>
+        </section>
+    </main>
+    <br>
+    <footer id=final> <!-- final do trabai até q enfim -->
+        <p>Projeto Painel Digital - Mulheres na Ciência</p>
+        <p>Desenvolvido por: Luiz Gustavo, Kayck Moisés, Rhuan Carlos, Dhimtry, Matheus</p>
+        <p>Turma: 3ºmsi</p>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const slides = document.querySelectorAll(".mini-slideshow img");
+            let currentIndex = 0;
+            const duration = 5000; 
+
+            function nextSlide() {
+                slides[currentIndex].classList.remove("active");
+                currentIndex = (currentIndex + 1) % slides.length;
+                slides[currentIndex].classList.add("active");
+            }
+
+            setInterval(nextSlide, duration);
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f5f5;
+    color: #4a5454;
+}
+
+header {
+    background-color: #8dafac;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0 20px;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #799e9b;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 35px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #a3c4c1;
+    color: #2b3333;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    text-align: justify;
+}
+
+.secao-card {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 35px;
+    border: 1px solid #dbe4e4;
+    border-radius: 8px;
+}
+
+.secao-card h2 {
+    color: #5c837f;
+    border-bottom: 1px solid #e0e8e7;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.secao-card h3 {
+    color: #446360;
+    margin: 20px 0 10px 0;
+}
+
+.secao-card h4 {
+    color: #638582;
+    margin: 15px 0 5px 0;
+}
+
+.secao-card p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #4a5454;
+}
+
+.secao-card strong {
+    color: #2b3333;
+}
+
+.secao-card ul {
+    margin-left: 20px;
+    line-height: 1.7;
+    color: #4a5454;
+    margin-bottom: 15px;
+}
+
+.secao-card li {
+    margin-bottom: 8px;
+}
+
+.secao-card a {
+    color: #5c837f;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #e0e8e7;
+    margin: 30px 0;
+}
+
+.area-resumo {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.foto-personagem {
+    width: 220px;
+    border: 2px solid #a3c4c1;
+    border-radius: 6px;
+    opacity: 0.95;
+}
+
+.espaco-imagem {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 100%;
+    border: 2px solid #a3c4c1;
+    border-radius: 6px;
+    background-color: #fafcfc;
+}
+
+.espaco-imagem img {
+    display: block;
+}
+
+footer {
+    background-color: #799e9b;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+    line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+    .area-resumo {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foto-personagem {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 15px;
+    }
+    .espaco-imagem {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border: 2px solid #a3c4c1;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+}

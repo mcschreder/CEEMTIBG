@@ -1,0 +1,135 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f2f2f2;
+      color: #333333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #FFE4E1, #FF69B4);
+      color: #ffffff;
+      text-align: center;
+      padding: 40px 20px 30px 20px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: block;
+    }
+
+    nav a {
+      display: inline-block;
+      color: #ffffff;
+      text-decoration: none;
+      border: 5px solid #ffffff;
+      padding: 8px 16px;
+      margin: 4px;
+      font-size: 0.9rem;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    nav a:hover {
+      background-color: #ffffff;
+      color: #4c1d95;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+
+    section {
+      background-color: #ffffff;
+      border: 1px solid #FF69B4;
+      padding: 30px;
+      margin-bottom: 25px;
+    }
+
+    section h2 {
+      color: #FF69B4;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    section h3 {
+      color: #FF69B4;
+      font-size: 1.15rem;
+      margin-top: 15px;
+      margin-bottom: 8px;
+    }
+
+    section hr {
+      border: 0;
+      height: 1px;
+      background-color: #FF69B4;
+      margin-bottom: 20px;
+    }
+
+    .resumo-container {
+      display: block;
+    }
+
+    .resumo-imagem {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 15px;
+      border: 2px solid #FF69B4;
+      padding: 3px;
+      max-width: 200px;
+    }
+
+    .resumo-imagem img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .resumo-texto p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .historia-texto p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background: linear-gradient(135deg, #FFE4E1, #FF69B4);
+      color: #ffffff;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }

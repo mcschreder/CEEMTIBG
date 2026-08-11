@@ -1,0 +1,190 @@
+/* Faz o site descer escrollando quando usa o nav para navegar entre as sessões */
+html {
+  scroll-behavior: smooth;
+}
+/***************************************************************************************************************************/
+
+/* Zera a margem, define a fonte e cor de fundo da página */
+body {
+    margin: 0;
+    font-family: Arial;
+    line-height: 1.5;
+    background: #D1D1D1;
+    background: radial-gradient(circle, rgba(209, 209, 209, 1) 85%, rgba(156, 156, 156, 1) 100%);
+}
+/***************************************************************************************************************************/
+
+/* Cria um gradiente de fundo e alinha o conteúdo ao centro */
+header {
+    height: 200px;
+    background: #8A8A8A;
+    background: radial-gradient(circle, rgba(31, 31, 31, 1) 70%, rgba(138, 138, 138, 1) 100%);
+    border-bottom: 1px solid black;
+    text-align: center;
+    align-content: center;
+}
+/***************************************************************************************************************************/
+
+/* Coloca gradiente no título */
+div h1 {
+    background: #543700;
+    background: linear-gradient(270deg, rgba(84, 55, 0, 1) 0%, rgba(247, 193, 30, 1) 80%);
+    
+    /* Recorta o fundo para o formato do texto */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* Torna o preenchimento do texto original transparente */
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+/***************************************************************************************************************************/
+
+/* Formata a aparência dos botões */
+nav button {
+    border: 1.5px solid #d3af37;
+    border-radius: 5px;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+/***************************************************************************************************************************/
+
+/* Muda a cor de fundo do botão ao passar o cursor sobre ele(OBS: 67 porque foi engraçado) */
+button:hover {
+    background-color: rgb(67, 67, 67);
+}
+/***************************************************************************************************************************/
+
+/* Formata as âncoras e coloca um gradiente no texto */
+nav a {
+    display: inline-block;
+    line-height: 2;
+    text-decoration: none;
+    background-color: black;
+    font-size: 18px;
+    background: #543700;
+    background: linear-gradient(270deg, rgba(84, 55, 0, 1) 0%, rgba(168, 123, 5, 1) 30%, rgba(247, 193, 30, 1) 100%);
+    
+    /* Recorta o fundo para o formato do texto */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* Torna o preenchimento do texto original transparente */
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+
+}
+/***************************************************************************************************************************/
+
+/* Formata as sessões */
+section {
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 45px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 9px;
+}
+/***************************************************************************************************************************/
+
+/* Cria uma linha embaixo dos títulos das sessões */
+section h2 {
+    border-bottom: 1px solid black;
+}
+/***************************************************************************************************************************/
+
+/* Parte onde é formatado todo o conteúdo dentro das sessões */
+.foto {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.texto {
+    display: inline-block;
+    text-align: justify;
+    width: 80%;
+}
+.texto2 {
+    padding-left: 22px;
+    text-align: justify;
+    width: 94%;
+}
+
+#resumoimg {
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#historiaimg {
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#contribuicoesimg {
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+/***************************************************************************************************************************/
+
+/* Parte onde é formatada o link nas referências, támbem complementa o link do Instagram da escola */
+main a {
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+/***************************************************************************************************************************/
+
+/* Parte onde é feita o link para o Instagram da escola */
+main div {
+    margin-left: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#linkinstagram {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#instagram {
+    width: 20px;
+    height: 20px;
+}
+/***************************************************************************************************************************/
+
+/* define o tamanho e o gradiente do footer */
+footer {
+    width: 100vw;
+    height: 240px;
+    align-content: center;
+    border: 1px solid black;
+    background: #5c5c5c;
+    background: linear-gradient(180deg, rgba(92, 92, 92, 1) 0%, rgba(20, 20, 20, 1) 100%);
+    
+    
+}
+/***************************************************************************************************************************/
+
+/* define como e onde o texto do footer deve aparecer */
+footer div {
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+    display: inline-block;
+}
+
+#tecnico {
+    color: white;
+    vertical-align: top;
+    padding-left: 40px;
+    display: inline-block;
+}

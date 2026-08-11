@@ -1,0 +1,110 @@
+/*codigo do body*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family:Arial;
+}
+/*cabeçalho*/
+header{
+    background: linear-gradient(to right, #8B0000, #DC143C);
+    color:white;
+    padding:25px;
+    text-align: center;
+    /*text-align: justify;*/
+    
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    display:inline-block ;
+    text-decoration:none ;
+    color:black ;
+    background-color:#FDF5E6;
+    border:2px solid black ;
+    border-radius: 40px;
+    padding:12px 22px;
+    margin:8px ;
+}
+
+nav a:hover{
+    background-color:#417BFB ;
+}
+
+footer{
+    background: linear-gradient(to right, #8B0000, #DC143C);
+    color:white;
+    padding:20px;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+hr{
+    border:1.8px solid #8B0000 ;
+}
+
+section{
+    border:2px dashed  #8B0000 ;
+    border-radius: 15px;
+    padding:12px 22px;
+    margin:8px ;
+}
+
+section h1{
+    color: #8B0000;
+}
+
+.foto{
+    display:inline-block;
+    width: 200px;
+    vertical-align:top;
+    margin-right: 20px;
+}
+
+.foto img{
+    width: 200px;
+    border: 4px solid  #8B0000;
+    padding: 5px;
+}
+
+.texto{
+    display: inline-block;
+    width: calc(100% - 260px);
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.texto p{
+    margin-top: 0;
+}
+
+footer p{
+    text-align: center;
+}
+ul a{
+    display:inline-block ;
+    text-decoration:none ;
+    color:black ;
+    background-color:#FDF5E6;
+    border:2px solid black ;
+    border-radius: 40px;
+    padding:12px 22px;
+    margin:8px ;
+}
+ul a:hover{
+    background-color:#417BFB ;
+}

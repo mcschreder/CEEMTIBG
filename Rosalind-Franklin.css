@@ -1,0 +1,107 @@
+/* Codigo do body*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Cabeçalho*/
+header {
+    background: linear-gradient(to right,#F9F243,#FF8F3D);
+    background-color: #8B008B;
+    color: white;
+    text-align: center ;
+    padding: 25px;
+}
+
+/*Codigo do titulo*/
+h1{
+    margin-bottom:15px;
+    font-size:40px;
+}
+
+/*Ajusto de texto*/
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*Quadrados Ogros*/
+nav a{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background-color:#4b99f1;
+    border:2px solid white;
+    padding:12px 23px;
+    margin:8px;
+    border-radius: 20px;
+}
+
+/*Rodapé da pagina*/
+footer {
+    background: linear-gradient(to right,#F9F243,#FF8F3D);
+    background-color: #8B008B;
+    color: white;
+    text-align: center ;
+}
+
+/*Mouse em cima preto fica*/
+nav a:hover {
+    color:#000000;
+    background-color:#3878eb;
+}
+
+/*Foto*/
+.foto {
+    display: inline-block;
+    width: 220px;
+    vertical-align:top;
+    margin-right: 20px;
+}
+
+.foto img{
+    width: 220px;
+    border: 4px solid #F9C24E;
+    padding: 5px;
+}
+
+/*Sistema de texto*/
+.texto {
+    display:inline-block;
+    width: calc(100% - 260px);
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.texto p {
+    margin-top: 0;
+}
+
+/*Sessões*/
+section {
+    padding: 15px;
+    margin: 25px;
+    border: 2px dashed #F9C24E;
+    border-radius: 15px;
+}
+
+section h1{
+    color: #FDB43F;
+    border-bottom: 2px solid #F9C24E;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #5CADE0;
+}
+
+/*Texto rodapé meio*/
+footer p{
+    text-align: center;
+}

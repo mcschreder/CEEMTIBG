@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:Monospace;
+    background-color:#DCDCDC;
+}
+ul {
+    list-style: square;
+}
+header a {
+    color: white;
+    text-decoration:none;
+}
+header {
+    background:linear-gradient(to right,#4f4f4f,#696969);
+    padding: 25px;
+    color: white;
+    text-align:center;
+    border: 2px solid black;
+    margin: 15;
+}
+header ul {
+    color: purple;
+}
+header a:hover {
+    color: white;
+}
+footer { 
+    background:linear-gradient(to right,#4f4f4f,#696969);
+    color: white;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 15;
+    text-align:center; 
+}
+main ul {
+    color: black;
+    font-size: 18px;
+}
+h1 {
+    margin:0;
+    font-size: 40px;
+}
+nav {
+    margin-top: 20px;
+    
+    
+}
+nav a{
+    display:inline-block ;
+    text-decoration:none ;
+    color: black;
+    background-color:white ;
+    border: 2px solid black;
+    padding: 12px 22px;
+    margin:8px ;
+    border-radius: 50px;
+}
+nav a:hover{
+    background-color:#808080 ;
+}
+p {
+    font-size: 18px;
+    color:black;
+}
+.container {
+    display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 15px;
+  color:black;
+}
+.lista {
+    font-size: 18px;
+    color: black;
+}
+h3 {
+    font-size:20px;
+    color: black;
+}
+.links a {
+    color: blue;
+}
+.links a:hover{
+    color: red;
+}
+.links {
+    font-size: 18px;
+    color: blue;
+}
+section {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    margin:0 25px ;
+    background-color: white;
+}
+h2 {
+    color:black;
+    font-size: 35px;
+}
+footer p {
+    color: white;
+}
+.foto {
+    border: 2px dashed black;
+    border-radius: 10px;
+}

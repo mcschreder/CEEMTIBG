@@ -1,0 +1,147 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    /* config de body */
+    body {
+        background-color: #eef1ef;
+        font-family: Montserrat, helvetica;
+        margin: 0;
+    }
+    
+    /* config de titulo */
+    h1 {
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 900;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    }
+    
+    /* config de header */ 
+    header {
+        background-image: linear-gradient(45deg, #171616 0%, #1a0b2e 50%, #0d2040 100%);
+        padding: 25px 0;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    }
+    
+    /* class de links no header */
+    .link-header {
+        text-decoration: none;
+        color: white;
+    }
+    
+    /* config de paragrafo */ 
+    p {
+        text-align: justify;
+    }
+    
+    /* config div paragrafo das sections */
+    .div-text {
+        display: inline-block;
+        width: 60%;
+        vertical-align: middle;
+        text-align: left;
+    }
+    
+    /* config div imagem das sections */
+    .div-img {
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        padding-left: 25px;
+    }
+    
+    /* config div imagem das sections direto na imagem */
+    .div-img img {
+        max-width: 100%;
+        border: 4px solid black;
+        border-radius: 10px;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+    
+    /* config da lista de link no header */
+    .lista-link {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* config da lista de link no header direto nos links */
+    .lista-link li {
+        display: inline-block;
+        margin: 0 15px;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        padding: 7px 10px;
+        transition: background-color 0.3s;
+     }
+    
+    /* config div caixas de navegação */
+    .lista-header {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+    /* config de sections */
+    section {
+        border: 2px solid black; 
+        padding: 15px;
+        border-radius: 20px;
+        margin: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+        text-align: center;
+        /*width: 90%;*/
+    }
+    
+    /* config de titulo de sections */
+    h2 {
+        color: #2a2e2b;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        font-weight: 500;
+        border-bottom: 2px solid #5e5e5c;
+        padding-bottom: 8px;
+        margin-bottom: 20px;
+    }
+    
+    /* config de lista contribuicoes */
+    #contribuicoes-lista{
+        text-align: justify;
+    }
+    
+    /* config de lista contribuicoes direto no lista */
+    #contribuicoes-lista li {
+        padding-bottom: 15px;
+    }
+    
+    /* config de links de referencias */
+    .referencias-lista {
+        color: #0f4c5c;
+        transition: color 0.3s ease;
+    }
+    
+    /* section referencias separado */
+    #referencias {
+        text-align: left;
+    }
+    
+    /* config de roda pe */
+    footer {
+        background-image: linear-gradient(45deg, #171616 0%, #1a0b2e 50%, #0d2040 100%);
+        padding: 2px;
+    }
+    
+    /* class de paragrafo no roda pe */
+    .roda-pe {
+        color: white;
+        text-align: center;
+    }
+    
+    /* lista de links do header ao mouse */
+    .lista-link li:hover {
+        cursor: pointer;
+        background-color: #adacac;
+    }
+    
+    /* class links de referencias ao mouse */
+    .referencias-lista:hover {
+        color: #0d0673;
+    }

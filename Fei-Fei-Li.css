@@ -1,0 +1,256 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f9;
+    font-family: sans-serif;
+}
+
+header {
+    background: #08A4FF;
+    background: linear-gradient(90deg, rgba(8, 164, 255, 1) 33%, rgba(9, 97, 175, 1) 61%, rgba(16, 39, 76, 1) 92%);
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFAFF;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: Times New Roman,Georgia,Garamond;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 2px;
+    display: inline-block;
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    text-align:  center;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #465183;
+    border: solid white 2px;
+    border-radius: 8px;
+    padding: 15px 32px;
+    margin: 20px auto;
+    display: block;
+}
+
+button:hover {
+  background-color: #5a6bb5;
+}
+
+main {
+    display: block;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-left: 8px solid #0984cb;
+    border-top: none;
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 0 0 35px 0;
+}
+
+section h2 {
+    display: block;
+    background: linear-gradient(90deg, #0984cb 0%, #10274c 100%);
+    color: #FFFAFF;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: left;
+    padding: 12px 20px;
+    margin: -25px -30px 20px -30px;
+    border-radius: 0 10px 0 0;
+}
+
+section hr {
+    display: none;
+}
+
+section p {
+    line-height: 1.7;
+    color: #222b3d;
+    text-align: justify;
+    margin: 0 0 15px 0;
+}
+
+.destaque {
+    color: #0984cb;
+    font-weight: bold;
+}
+
+.card {
+    display: block;
+    padding: 10px;
+}
+
+.foto {
+    display: inline-block;
+    width: 42%;
+    vertical-align: middle;
+    margin-right: 3%;
+    padding: 10px;
+    border: 2px solid #4682B4;
+    border-radius: 10px;
+    background-color: #F0F8FF;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.foto img {
+    display: inline-block;
+    width: 100%;
+    border: 4px solid #87CEFA;
+    padding: 5px;
+    background-color: #F0F8FF;
+    box-sizing: border-box;
+}
+
+.legenda {
+    font-style: italic;
+    font-size: 13px;
+    color: #465183;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.texto {
+    display: inline-block;
+    width: 53%;
+    vertical-align: middle;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.texto a{
+    text-decoration: none;
+}
+
+.texto a:hover{
+    text-decoration: underline;
+}
+
+.texto-historia {
+    display: block;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.lista-contribuicoes {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.lista-contribuicoes li {
+    display: block;
+    background-color: #f4f8ff;
+    border: 1px solid #cfe0ff;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 0 0 15px 0;
+    line-height: 1.6;
+    color: #222b3d;
+}
+
+.titulo-item {
+    display: block;
+    color: #10274c;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 15px 0;
+}
+
+.texto-referencia {
+    display: block;
+    width: 100%;
+}
+
+.lista-referencias {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.lista-referencias li {
+    margin: 8px 0;
+}
+
+.lista-referencias a {
+    color: #465183;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.lista-referencias a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #10274c; 
+    padding: 30px 10px 20px; 
+    border-top: 4px solid #465183; 
+    font-family: sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coluna {
+    text-align: center; 
+    margin-bottom: 25px;
+}
+
+.coluna h3 {
+    color: #08A4FF; 
+    font-size: 16px; 
+    margin: 10px 0 5px 0; 
+}
+
+.coluna p {
+    color: #FFFAFF;
+    font-size: 13px; 
+    margin: 4px 0;
+}
+
+.coluna ul {
+    padding: 0;
+    margin: 0;
+}
+
+.coluna li {
+    display: block;
+    color: #FFFAFF;
+    font-size: 13px;
+    margin: 4px 0;
+}
+
+.copyright {
+    display: block;
+    color: #a0aabf;
+    font-size: 11px;
+    margin: 10px 0 0 0;
+}

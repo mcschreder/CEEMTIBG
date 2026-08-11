@@ -1,0 +1,264 @@
+:root{
+    --fundo: #a3b2a987;
+    --text: #333;
+    --summary: #939a9e82;
+    --menu: #9983e325;
+    --section: #9289483c;
+    --btn-dark-mode: #8B000067;
+    --ref: #fff;
+    --refh: #333;
+}
+
+body{
+    background: var(--fundo);
+    margin: 0;
+    min-height: 100vh;
+}
+
+details {
+    margin: 40px;
+}
+
+summary {
+    writing-mode: vertical-lr;
+    text-align: center;
+    padding: 12px 10px;
+    width: 23px;
+    height: 17px;
+    background-color: var(--summary);
+    border: 2px solid #28394a;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 200ms ease-in-out 0s;
+    box-shadow: 0 4px 12px 0 rgba(82, 93, 98, 0.59);
+}
+
+summary::after,
+summary::before {
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+summary::after {
+    content: "";
+}
+
+summary::before {
+    content: "III";
+    letter-spacing: -1px;
+    font-size: 1.2rem;
+}
+
+summary:hover {
+    transform: scale(1.1);
+}
+
+summary::marker {
+    font-size: 0;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] .menu {
+    animation-name: menuAnim;
+}
+
+details[open] summary::after {
+    content: "X";
+    font-size: 1.2rem;
+}
+
+details[open] summary::before {
+    content: "";
+}
+
+header {
+    text-align: center;
+}
+
+.menu {
+    border-radius: 8px;
+    background-color: var(--menu);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    animation: closeMenu 300ms ease-in-out forwards;
+    margin: 6px;
+    padding-top: 17px ;
+}
+
+.menu:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.menu a {
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 45px;
+    color: var(--text);
+    text-decoration: none;
+    transition: filter 200ms linear 0s;
+}
+
+.menu a:hover {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    transform: scale(1.05);
+    filter: brightness(200%);
+    border-radius: 15px;
+    background-color: rgba(25,0,50,0.2);
+}
+
+.botaoMenu{
+    
+}
+
+details::before {
+    color: var(--text);
+    position: absolute;
+    margin-left: 80px;
+    padding: 10px 10px;
+    opacity: 0.4;
+}
+
+details[open]::before {
+    animation: fadeMe 300ms linear forwards;
+}
+
+@keyframes menuAnim {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+
+@keyframes closeMenu {
+    0% { width: 320px; }
+    100% { width: 0; }
+}
+
+@keyframes fadeMe {
+    0% { opacity: 0.4; }
+    100% { opacity: 0; }
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    color: var(--text);
+    margin-top: 25px;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    font-family: 'Georgia', Sans-Serif;
+    text-decoration: underline;
+}
+
+h2 {
+    color: var(--text);
+    margin-top: 10px;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--text);
+    margin: 0;
+}
+
+section {
+    margin: 40px;
+    padding: 20px;
+    background-color: var(--section);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+p {
+    text-align: justify;
+    color: var(--text);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 5px;
+}
+
+li {
+    margin: 10px 0;
+    color: var(--text);
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+#referencias a {
+    padding: 0;
+    color: var(--ref);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#referencias a:hover {
+    text-decoration: underline;
+    color: var(--refh);
+    transform: scale(1.01);
+}
+
+.resumo {
+    display: inline-block;
+    margin: 20px;
+    width: 70%;
+    padding: 12px;
+}
+
+.img-lateral{
+    display: inline-block;
+    width: 20%;
+    height: 250px;
+    border-radius: 8px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.img-lateral img{
+    width: 70%;
+    display: inline-block;
+}
+
+.texto-conteudo {
+    display: inline-block;
+    flex: 1;
+    width: 100%;
+}
+
+.imagem-contr{
+    width: auto;
+    height: 300px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#btn-dark-mode{
+    background-color: var(--btn-dark-mode);
+    width: 66px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 8px;
+    display: block;
+    margin-left: 2;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-image: radial-gradient(circle, #484a92a2, #a3b2a987);
+    color: var(--text);
+    font-size: 1rem;
+    border-top: 2px solid #333;
+}

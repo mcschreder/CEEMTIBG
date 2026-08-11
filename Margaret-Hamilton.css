@@ -1,0 +1,134 @@
+*{
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+ul{
+   text-align: justify; 
+}
+
+
+body{
+    margin:0;
+    padding:0;
+    background:#f2f2f2;
+}
+
+/* Cabeçalho */
+
+header{
+    background: linear-gradient(to bottom right,#FFD700 30% ,#CDAD00 75% ,#CD9B1D 100%);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:55px;
+    margin-bottom:30px;
+}
+
+/* Menu */
+/* Menu */
+
+nav{
+    display:flex;
+    justify-content:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:0;
+    margin:0;
+}
+
+nav li{
+    list-style:none;
+}
+
+nav a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    border:2px solid white;
+    padding:15px 30px;
+    background:#EEE685;
+    transition:.3s;
+}
+
+nav a:hover{
+    background:white;
+    color:#3f2b96;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+.foto img{
+    width:220px;
+    border:4px solid #CDAD00;
+}
+
+.texto{
+    flex:1;
+}
+
+.texto p{
+    margin-bottom:20px;
+    text-align:justify;
+    line-height:1.7;
+}
+
+/* Caixas */
+
+.caixa{
+    width:95%;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border:1px solid #ccc;
+}
+
+.caixa h2{
+    color:#CDAD00;
+    margin-bottom:20px;
+    border-bottom:2px solid #CDAD00;
+    padding-bottom:10px;
+}
+
+/* Conteúdo */
+
+.conteudo{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+.conteudo img{
+    width:220px;
+    border:4px solid #CDAD00;
+}
+
+.conteudo p{
+    margin-bottom:20px;
+    text-align:justify;
+    line-height:1.7;
+}
+
+footer{
+    background: linear-gradient(to bottom right,#FFD700 30% ,#CDAD00 75% ,#CD9B1D 100%);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+footer p {
+    text-align: center;
+}

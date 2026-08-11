@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #EDE8D0;
+    color: #333;
+}
+
+.header {
+    background-color: #4A4A4A;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    border: 1px solid white;
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background-color: #D9D9D9 ;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #4A4A4A;
+    border-radius: 4px;
+}
+
+.card h2 {
+    color: #4A4A4A;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #EDE8D0;
+    margin-bottom: 20px;
+}
+
+.content-flex {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+
+
+.text-box p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.card ul {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+.card li{
+    padding-bottom: 5px;
+}
+
+.card a {
+    color: #4A4A4A;
+    text-decoration: underline;
+}
+
+
+.footer {
+    background-color: #4A4A4A;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    line-height: 1.6;
+}
+p{
+    text-indent: 20px;
+}
+.card p{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#contribuicoes h3{
+    text-align: center;
+}
+
+.ft-esq, .ft-dir {
+    width: 180px;
+    height: 210px;
+    border: 3px solid #4A4A4A;
+    border-radius: 3px;
+}
+.ft-esq {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.p2 {
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.ft-dir {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+ul li::marker{
+    font-size: 25px;
+    color: #4A4A4A;
+}
+body::selection{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: brown;
+}

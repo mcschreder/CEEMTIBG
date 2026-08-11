@@ -1,0 +1,238 @@
+*{
+    line-height: 1.5;
+}
+header{
+    color:brown;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding:20px;
+    margin: 20px;
+    font-size:25px;
+    text-align: center;
+    font-family: Georgia;
+    border-radius: 15px;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row; 
+    gap: 15px;          
+    align-items: center;
+    justify-content: center;
+}
+
+nav>a {
+    border: 2px solid rgb(255,222,173);
+    background-color: brown;
+    color:rgb(255,222,173);
+    padding:5px;
+    border-radius: 8px;
+}
+h2{
+    color:brown;
+    text-align: justify;
+    font-family: Georgia;
+    font-size: 23px;
+    margin: 20px;
+}
+hr{
+    background-color: brown;
+    height:2px;
+}
+img{
+    height: 600px;
+    width: 400px;
+    border:3px solid brown; ;
+}
+
+body{
+    font-family: Arial;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+    background-color:rgb(255,250,240);
+}
+footer{
+    color:brown;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding:20px;
+    margin: 20px;
+    font-size:15px;
+    text-align: center;
+    font-family: Georgia;
+    border-radius: 15px;
+}
+
+#lista{
+    color:brown;
+}
+.container-imagem {
+    display: flex;         
+    align-items: center;   
+    gap: 20px;            
+}
+a:hover{
+    background-color: rgb(244,164,96);
+    color:brown;
+}
+a:focus{
+    background-color: rgb(210,105,30);
+    color:rgb(245,222,179);
+}*{
+    line-height: 1.5;
+}
+header{
+    color:brown;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding:20px;
+    margin: 20px;
+    font-size:25px;
+    text-align: center;
+    font-family: Georgia;
+    border-radius: 15px;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row; 
+    gap: 15px;          
+    align-items: center;
+    justify-content: center;
+}
+
+nav>a {
+    border: 2px solid rgb(255,222,173);
+    background-color: brown;
+    color:rgb(255,222,173);
+    padding:5px;
+    border-radius: 8px;
+}
+h2{
+    color:brown;
+    text-align: justify;
+    font-family: Georgia;
+    font-size: 23px;
+    margin: 20px;
+}
+hr{
+    background-color: brown;
+    height:2px;
+}
+img{
+    height: 600px;
+    width: 400px;
+    border:3px solid brown; ;
+}
+
+body{
+    font-family: Arial;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+    background-color:rgb(255,250,240);
+}
+footer{
+    color:brown;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding:20px;
+    margin: 20px;
+    font-size:15px;
+    text-align: center;
+    font-family: Georgia;
+    border-radius: 15px;
+}
+
+#lista{
+    color:brown;
+}
+.container-imagem {
+    display: flex;         
+    align-items: center;   
+    gap: 20px;            
+}
+a:hover{
+    background-color: rgb(244,164,96);
+    color:brown;
+}
+a:focus{
+    background-color: rgb(210,105,30);
+    color:rgb(245,222,179);
+}*{
+    line-height: 1.5;
+}
+header{
+    color:brown;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding:20px;
+    margin: 20px;
+    font-size:25px;
+    text-align: center;
+    font-family: Georgia;
+    border-radius: 15px;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row; 
+    gap: 15px;          
+    align-items: center;
+    justify-content: center;
+}
+
+nav>a {
+    border: 2px solid rgb(255,222,173);
+    background-color: brown;
+    color:rgb(255,222,173);
+    padding:5px;
+    border-radius: 8px;
+}
+h2{
+    color:brown;
+    text-align: justify;
+    font-family: Georgia;
+    font-size: 23px;
+    margin: 20px;
+}
+hr{
+    background-color: brown;
+    height:2px;
+}
+img{
+    height: 600px;
+    width: 400px;
+    border:3px solid brown; ;
+}
+
+body{
+    font-family: Arial;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+    background-color:rgb(255,250,240);
+}
+footer{
+    color:brown;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding:20px;
+    margin: 20px;
+    font-size:15px;
+    text-align: center;
+    font-family: Georgia;
+    border-radius: 15px;
+}
+
+#lista{
+    color:brown;
+}
+.container-imagem {
+    display: flex;         
+    align-items: center;   
+    gap: 20px;            
+}
+a:hover{
+    background-color: rgb(244,164,96);
+    color:brown;
+}
+a:focus{
+    background-color: rgb(210,105,30);
+    color:rgb(245,222,179);
+}
