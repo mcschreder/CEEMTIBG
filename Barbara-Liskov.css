@@ -1,0 +1,91 @@
+/* CONFIGURAÇÕES GERAIS */
+
+body{
+    margin:0;
+    background-color:#f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* CABEÇALHO */
+header{
+    background:linear-gradient(to right, #fc6298, #ff9ec0); /* TROCAR DPS */
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+h1{
+    margin:0;
+    font-size:40px;
+}
+
+/* MENU */
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background-color:#f74584; /* TROCAR DPS */
+    border:2px solid white;
+    padding:12px 22px;
+    margin:8px;
+}
+
+nav a:hoover{
+    background-color:red; /* TROCAR DPS */
+}
+
+/* CONTEÚDO */
+
+main{
+    margin:20px;
+}
+
+section{
+    background-color:white;
+    border:1px solid #cccccc;
+    padding:25px;
+    margin-bottom:25px;
+}
+
+section h2{
+    color:black; /* TROCAR DPS */
+    border-bottom:2px solid black; /* ou use hr no html, trocar cor - escolha seu padrão de cor */
+    padding-bottom:10px;
+}
+
+section p{
+    text-align:justify;
+    line-height:25px;
+}
+
+.foto{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.foto img{
+    width:200px; /* trocar - escolha um valor */
+    border:4px solid black;
+    padding:5px;
+}
+
+.texto{
+    display:inline-block;
+    width: 84%;
+    padding-left: 25px;
+}
+
+/* RODAPÉ */
+
+footer{
+    background-color:#fc6298; /* TROCAR DPS */
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+

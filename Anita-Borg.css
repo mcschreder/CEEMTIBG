@@ -1,0 +1,138 @@
+
+
+body {
+    font-family: Arial, Sans-Serif ;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #8700EB;
+    background: linear-gradient(90deg,rgba(135, 0, 235, 1) 33%, rgba(111, 4, 194, 1) 55%, rgba(80, 0, 138, 1) 89%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    
+    display: inline-block;
+    text-decoration: none;
+    color: white; 
+    background-color:#0A2472 ;
+    border: solid white;
+    margin: 10px;
+    padding: 12px 22px;
+    border-radius: 50px;
+}
+
+nav a:hover {
+    
+    background-color: #145980;
+}
+
+section {
+    background-color: white;
+    margin: 25px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgba(25, 26, 128, 0.80);
+}
+
+
+
+footer {
+   background: #8700EB;
+    background: linear-gradient(90deg,rgba(135, 0, 235, 1) 33%, rgba(111, 4, 194, 1) 55%, rgba(80, 0, 138, 1) 89%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    
+    font-size: 40px;   
+
+
+}
+
+h2 {
+    
+    color:#082380 ;
+    
+}
+
+hr {
+    
+    height: 2px;
+    background-color:#082380;
+}
+
+.foto img {
+    
+    border: solid ;
+    border-color: #082380;
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+}
+
+.texto {
+    
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+
+.caixa {
+   
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    text-align: justify;
+    font-size: 20px;
+     line-height: 1.6;
+     font-family: Arial, sans-serif;
+    
+
+}
+
+footer p {
+    
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+#referencia li:hover {
+    
+    color:#B345CF ;
+    
+}
+
+#referencia a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Gradiente para o topo do menu #8700EB */
