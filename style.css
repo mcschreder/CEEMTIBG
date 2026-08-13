@@ -526,3 +526,149 @@ h4{
 #orgsteam .bordasteam:nth-child(5) .titulosteam{
     color: #653c9a;
 }
+
+
+/* TABLET */
+@media (max-width: 1000px){
+
+    header{
+        flex-wrap: wrap;
+    }
+
+    nav{
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .mulher{
+        width: calc(50% - 10px);
+    }
+
+    .tabelas{
+        flex-wrap: wrap;
+    }
+
+    #tabelaobjetivos,
+    #tabeladesenvolvido{
+        width: 100%;
+    }
+
+    #orgsteam{
+        flex-wrap: wrap;
+    }
+
+    .bordasteam{
+        flex: 1 1 calc(33.333% - 20px);
+    }
+
+    #orgtecnologiasutilizadas{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #informacoes{
+        flex-wrap: wrap;
+    }
+}
+
+
+/* CELULAR */
+@media (max-width: 600px){
+
+    .boxes{
+        margin: 10px;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    nav a{
+        padding: 10px;
+    }
+
+    .mulher{
+        width: 100%;
+    }
+
+    .titulo-mulher,
+    .txt-mulher,
+    .txt-mulher-jogos,
+    .txt-mulher-livros{
+        white-space: normal;
+    }
+
+    .mulher-jogos,
+    .mulher-livros{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .mulher-jogos iframe{
+        width: 100%;
+        max-width: 485px;
+    }
+
+    #tabelaobjetivos,
+    #tabeladesenvolvido{
+        width: 100%;
+        padding: 0;
+    }
+
+    #tabelacurso{
+        width: 40%;
+    }
+
+    #tabelaprojeto{
+        width: 60%;
+    }
+
+    .itens-curso{
+        height: auto;
+        min-height: 100px;
+        font-size: 12px;
+    }
+
+    #orgsteam{
+        flex-direction: column;
+    }
+
+    .bordasteam{
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #orgtecnologiasutilizadas{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .borda-tecnologias:first-child,
+    .borda-tecnologias:nth-child(2),
+    .borda-tecnologias:nth-child(3),
+    .borda-tecnologias:nth-child(4){
+        width: 100%;
+    }
+
+    #informacoes{
+        flex-direction: column;
+    }
+
+    .info-footer{
+        width: 100%;
+    }
+
+    #info-cursos{
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        padding: 15px 0;
+        margin: 15px 0;
+    }
+
+    #info-escola{
+        flex-direction: column;
+    }
+}
